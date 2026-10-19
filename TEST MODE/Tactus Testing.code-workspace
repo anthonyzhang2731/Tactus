@@ -1,0 +1,8 @@
+{
+  "folders": [
+    { "name": "TEST MODE", "path": "." },
+    { "name": "Finish Touchpad", "path": "../Finish Touchpad" },
+    { "name": "Starter", "path": "../Starter" }
+  ],
+  "settings": {}
+}

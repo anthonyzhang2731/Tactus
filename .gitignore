@@ -1,0 +1,19 @@
+# PlatformIO-generated dependencies, binaries, and local editor state
+**/.pio/
+**/.vscode/
+**/__pycache__/
+*.pyc
+*.o
+*.elf
+*.bin
+*.map
+
+# Machine-local files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+Desktop.ini
