@@ -96,7 +96,7 @@ See [build and flashing instructions](docs/flashing.md) for uploads and switchin
 
 ## Engineering status
 
-Tactus is a functional firmware prototype under hardware evaluation. The three firmware targets have been compiled for ESP32, and the test-mode state machine has ten compile-time scenario checks covering debounce, held contacts, restart behavior, the 400-count limit, and clock rollover.
+Tactus is a functional firmware under continuous hardware evaluation and use by 2 national-level swimmers. The three firmware targets have been compiled for ESP32, and the test-mode state machine has ten compile-time scenario checks covering debounce, held contacts, restart behavior, the 400-count limit, and clock rollover.
 
 The display's hundredth-of-a-second formatting is a presentation resolution, not a measured accuracy specification. The current touchpad records time from receipt of the wireless start message and timestamps a contact after its validation interval. Wireless delivery, audio onset, contact behavior, and timing error relative to a reference system require physical measurement. This repository does not claim certified competition timing performance.
 
